@@ -39,7 +39,7 @@ ul{
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
-    margin: 0;
+    margin-bottom: 40px;
     width: 400px;
     border: white;
     border-style: none;
@@ -47,7 +47,6 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-
 }
 p{
     margin: 0;
@@ -55,7 +54,7 @@ p{
 #heroText{
     font-size: 18px;
     color: #e5e7eb;
-    margin: 0 20px 0 0;
+    margin: 5px 20px 10px 0;
     font-weight:normal;
 }
 .signUpBtn{
@@ -81,7 +80,6 @@ p{
 
 .middle{
     margin: 0px;
-    height: 500px;
     color: #1f2937;
     background-color: #ffffff;
     display: flex;
@@ -91,7 +89,7 @@ p{
 }
 .middleText{
     font-size: 36px;
-    margin-top: 3%;
+    margin: 3%;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -99,15 +97,16 @@ p{
 
 .allBoxes{
     display: flex;
-    margin: 0px 20% 80px 20%;
+    margin: 0px 20% 60px 20%;
     justify-content: space-between;
     align-items: center;
-    flex: auto;
+    flex-wrap: wrap;
 }
 .combo{
     justify-content: center;
     align-items: center;
     display: flex;
+    flex: auto;
     flex-direction: column;
 
 }
@@ -125,7 +124,7 @@ p{
     font-weight: lighter;
     text-align:center;
     width: 150px;
-    margin: 10px;
+    margin: 10px auto 20px auto;
 
 }
 
